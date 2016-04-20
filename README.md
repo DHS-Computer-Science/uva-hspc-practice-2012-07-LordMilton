@@ -29,20 +29,6 @@ corner.
 
 ### Input
 The first line of input is the number of test cases that follow. Each test case
-starts with an integer N (1 ≤ N ≤ 100) on a line by itself representing the
-number of intersections. Then there will be a single line with two integers,
-X and Y (1 ≤ X, Y ≤ N ), separated by a single space, indicating the numbers of
-the start (X) and end (Y ) intersections. There will always be a path from the
-starting intersection to the ending intersection. Then the input will contain a
-single line with an integer M (0 ≤ M ≤ 5000), indicating the number of directed
-paths. M lines will follow, each containing three values separated by spaces:
-the start intersection A, the end intersection B, and the likelihood represented
-as a floating point number (0.000 < P ≤ 1.000) that a path is safe–there is no
-wolf on that path. There can be multiple paths between the same two
-intersections.
-
-### Output
-The first line of input is the number of test cases that follow. Each test case
 begins with a line containing integers M , N , and P : the field’s width, its
 height (both measured in “steps”), and the number of players, respectively
 (M, N, P < 10). The next P lines contain space-separated values, starting with
@@ -51,6 +37,9 @@ position on the field and the direction in which they start (N , S, E, or W ).
 No two kids will start in the same spot. The first of the kids listed is “it”
 for the game. The last line of the test case (≤ 1000) is the number of rounds
 to play.
+
+### Output
+Read the sample output, it's pretty obvious.
 
 ## Sample
 ### Input
