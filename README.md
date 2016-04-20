@@ -39,7 +39,7 @@ for the game. The last line of the test case (≤ 1000) is the number of rounds
 to play.
 
 ### Output
-Read the sample output, it's pretty obvious.
+For each case, output "Case n: " where n is the case number.  Then on the same line, print the name of the winning child.
 
 ## Sample
 ### Input
